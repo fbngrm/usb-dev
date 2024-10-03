@@ -18,7 +18,7 @@ Based on [polybar-removable-disks](https://github.com/howey-aus/polybar-removabl
 ```
 [module/removable-disks]
 type = custom/script
-exec = ~/.config/polybar/scripts/removable_disks.sh
+exec = ~/.config/polybar/scripts/usb-dev.sh
 ```
 
 ## Dependencies
