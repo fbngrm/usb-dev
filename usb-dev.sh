@@ -3,8 +3,8 @@
 set -o errexit
 
 LSBLK_COLS="NAME,RM,TYPE,MOUNTPOINT,LABEL"
-# UNMOUNTED_COLOR=$(xrdb -query | grep "*color9" | cut -f 2)
-# MOUNTED_COLOR=$(xrdb -query | grep "*color10" | cut -f 2)
+UNMOUNTED_COLOR=$(xrdb -query | grep "*color9" | cut -f 2)
+MOUNTED_COLOR=$(xrdb -query | grep "*color10" | cut -f 2)
 
 # Define your preferred terminal and file explorer applications
 TERMINAL="kitty --directory"
